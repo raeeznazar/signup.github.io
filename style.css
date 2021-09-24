@@ -1,0 +1,177 @@
+        body {
+            width: 100%;
+            margin: 0 auto;
+            width: 100vw;
+            height: 100vh;
+            background: #67B26F;
+            /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #4ca2cd, #67B26F);
+            /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #4ca2cd, #67B26F);
+            /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        }
+        
+        #box {
+            width: 500px;
+            height: auto;
+            padding-bottom: 30px;
+            background: #757F9A;
+            /* fallback for old browsers */
+            background: -webkit-linear-gradient(to left, #D7DDE8, #757F9A);
+            /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to left, #D7DDE8, #757F9A);
+            /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            margin-top: 50px;
+            border-radius: 30px;
+            box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+        }
+        
+        #sign-up-form {
+            width: 100%;
+            max-width: 440px;
+            margin: 0 auto;
+        }
+        
+        .button-group {
+            width: 100%;
+            max-width: 440px;
+            margin: 0 auto;
+            display: inline;
+        }
+        
+        .button-22 {
+            width: 100%;
+            height: auto;
+            align-items: center;
+            text-align: center;
+            appearance: button;
+            background-color: #0276FF;
+            border-radius: 8px;
+            border-style: none;
+            box-shadow: rgba(255, 255, 255, 0.26) 0 1px 2px inset;
+            box-sizing: border-box;
+            color: #fff;
+            cursor: pointer;
+            font-family: "RM Neue", sans-serif;
+            font-size: 100%;
+            line-height: 1.15;
+            margin: 0;
+            padding: 10px 21px;
+            text-align: center;
+            text-transform: none;
+            transition: color .13s ease-in-out, background .13s ease-in-out, opacity .13s ease-in-out, box-shadow .13s ease-in-out;
+            user-select: none;
+            -webkit-user-select: none;
+            touch-action: manipulation;
+        }
+        
+        .button-22:active {
+            background-color: #006AE8;
+        }
+        
+        .button-22:hover {
+            background-color: #1C84FF;
+        }
+        
+        .button-23 {
+            width: 100%;
+            height: auto;
+            align-items: center;
+            text-align: center;
+            appearance: button;
+            background-color: red;
+            border-radius: 8px;
+            border-style: none;
+            box-shadow: rgba(255, 255, 255, 0.26) 0 1px 2px inset;
+            box-sizing: border-box;
+            color: #fff;
+            cursor: pointer;
+            font-family: "RM Neue", sans-serif;
+            font-size: 100%;
+            line-height: 1.15;
+            margin: 0;
+            padding: 10px 21px;
+            text-align: center;
+            text-transform: none;
+            transition: color .13s ease-in-out, background .13s ease-in-out, opacity .13s ease-in-out, box-shadow .13s ease-in-out;
+            user-select: none;
+            -webkit-user-select: none;
+            touch-action: manipulation;
+        }
+        
+        .button-23:active {
+            background-color: red;
+        }
+        
+        .button-23:hover {
+            background-color: #EE6363;
+        }
+        
+        input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+        
+        .eyes {
+            float: right;
+            color: #8F8F8F;
+            margin-right: 10px;
+            margin-top: -25px;
+            position: relative;
+            z-index: 2;
+        }
+        
+        .checkbox {
+            float: right;
+        }
+        
+        .submit {
+            width: 100%;
+        }
+        
+        .gender2 {
+            display: none;
+        }
+        
+        .checksmallbox {
+            content-visibility: hidden;
+        }
+        
+        @media screen and (max-width:500px) {
+            #sign-up-form {
+                padding-right: 20px;
+                padding-left: 20px;
+            }
+            #box {
+                width: 400px;
+                height: auto;
+            }
+        }
+        
+        @media screen and (max-width: 320px) {
+            .gender {
+                display: none;
+            }
+            .gender2 {
+                display: contents;
+            }
+            .checkbox2 {
+                display: none;
+            }
+            .checksmallbox2 {
+                margin-left: 20px;
+            }
+            .checksmallbox {
+                content-visibility: visible;
+            }
+
+
+            .eyes {
+               
+                margin-top: -25px;
+                position: relative;
+                z-index: 3;
+            }
+            
+        }
